@@ -14,12 +14,12 @@ function App() {
         item={expenses[0].item}
         amount={expenses[0].amount}
         date={expenses[0].date}
-      ></ExpenseItem>
+     />
       <ExpenseItem
         item={expenses[1].item}
         amount={expenses[1].amount}
         date={expenses[1].date}
-      ></ExpenseItem>
+     />
     </div>
   );
 }
