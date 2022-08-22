@@ -10,11 +10,14 @@ function ExpenseForm() {
         </div>
         <div className="new-expense__control">
           <label>Amount</label>
-          <input type="number" min ='0.01'/>
+          <input type="number" min ='0.0'/>
         </div>
         <div className="new-expense__control">
           <label>Date</label>
           <input type="date" min="2021-01-01" />
+        </div>
+        <div className=".new-expense__actions">
+       <button type="submit">add element</button>
         </div>
       </div>
     </form>
